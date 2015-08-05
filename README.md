@@ -1,9 +1,9 @@
 
-=== INSTALLATION
+# INSTALLATION
 
 Clone this repository and run 'bundle install'
 
-=== RUNNING
+# RUNNING
 
 Tests can be run via 'rake' or 'rspec'
 
@@ -13,7 +13,7 @@ The application can be run from the command line via
 
 e.g ruby parser_ui.rb spec/features/test_data/webserver.log
 
-=== NOTES
+# NOTES
 
 The basic answer to this kata can be expressed in just a few lines e.g:
 
