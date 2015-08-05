@@ -22,5 +22,3 @@ class OptionsParser
     end
   end
 end
-
-

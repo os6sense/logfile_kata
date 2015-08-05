@@ -1,5 +1,10 @@
+require 'forwardable'
 # Container representation for a logfile
 class LogFile
+  extend Forwardable
+
+  def_delegators :@urls, :[], :size
+
   def initialize
     @urls = Hash.new { |h, k| h[k] = [] }
   end
