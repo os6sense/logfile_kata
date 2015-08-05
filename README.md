@@ -1,9 +1,9 @@
 
-INSTALLATION
+=== INSTALLATION
 
 Clone this repository and run 'bundle install'
 
-RUNNING
+=== RUNNING
 
 Tests can be run via 'rake' or 'rspec'
 
@@ -13,7 +13,7 @@ The application can be run from the command line via
 
 e.g ruby parser_ui.rb spec/features/test_data/webserver.log
 
-NOTES
+=== NOTES
 
 The basic answer to this kata can be expressed in just a few lines e.g:
 
@@ -29,4 +29,4 @@ The basic answer to this kata can be expressed in just a few lines e.g:
     process(ARGV[0])
 
 I note this because I believe my solution to be over-engineered but providing
-a good example of a more OO solution to the problem.
+an example of a more OO solution to the problem.
