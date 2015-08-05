@@ -9,4 +9,4 @@ def parse_file
   parser.unique_views
 end
 
-parse_file
+parse_file if __FILE__ == $PROGRAM_NAME
