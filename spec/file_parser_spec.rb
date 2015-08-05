@@ -12,12 +12,12 @@ describe FileParser do
 
   describe '.parse' do
     context 'when the file does not exist' do
-      it 'fails if the file does not exists' do
+      it 'fails' do
         expect { described_class.parse(filename) }.to raise_error(/not found/)
       end
     end
 
-    context 'when the file exits' do
+    context 'when the file exists' do
       before do
         File.open(filename, 'w') do |f|
           f.write('/home 999.999.999.999')
@@ -26,8 +26,8 @@ describe FileParser do
       end
 
       it 'yields the entry' do
+        pending "TODO: Fix problem with memfs and rspec"
         #expect { |b| described_class.parse(filename, &b) }.to yield_with_args()
-        pending "Fix problem with memfs and rspec"
       end
     end
   end
