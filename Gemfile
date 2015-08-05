@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
 
 group :development do
-  gem 'awesome_print'
   gem 'guard'
   gem 'guard-rspec'
   gem 'byebug'
